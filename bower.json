@@ -1,0 +1,26 @@
+{
+    "name": "mac-attack",
+    "homepage": "https://github.com/andreasastrom/mac-attack",
+    "description": "training app",
+    "main": "app.py",
+    "authors": [
+        "andreas åström"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "angular": "~1.5.0",
+        "angular-route": "~1.5.0",
+        "angular-component-router": "^0.2.1",
+        "angular-loader": "~1.5.0",
+        "angular-mocks": "~1.5.0",
+        "html5-boilerplate": "^5.3.0",
+        "bootstrap": "^3.3.7"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
