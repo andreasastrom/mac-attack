@@ -3,7 +3,8 @@
 // Declare app level module which depends on views, and components
 var app = angular.module('myApp', [
     'ngComponentRouter',
-    'app.home'
+    'app.home',
+    'app.navbar'
 ]);
 
 app.value("$routerRootComponent", "app");
