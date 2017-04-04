@@ -1,0 +1,25 @@
+{
+  "name": "mac-attack",
+  "version": "1.0.0",
+  "description": "training app",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasastrom/mac-attack.git"
+  },
+  "author": "andreas åström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreasastrom/mac-attack/issues"
+  },
+  "homepage": "https://github.com/andreasastrom/mac-attack#readme"
+}
