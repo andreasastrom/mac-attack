@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
-<body>
+<body ng-cloak>
     <div class="app-contaienr">
         <h1>Välkommen</h1>
     </div>
-    sdas
+    <app></app>
 
 
-    <script src="{% static 'bower_components/angular/angular.js'}"></script>
-    <!--<script src="{{ url_for('static', filename='bower_components/angular/angular.js') }}"></script>-->
+    <script src="{{ url_for('static', filename='bower_components/angular/angular.js') }}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!--<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/angular-component-router/angular_1_router.js "></script>-->
+    <script src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/angular-component-router/angular_1_router.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/home.js') }}"></script>
 </body>
 
 
